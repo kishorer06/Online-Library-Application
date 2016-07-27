@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+ background-image: url("images/bgimge.jpg"); 
+ background-image:no-repeat;	
+ margin: 0;
+ padding: 0;
+}
+h1{
+font-family: 'Oswald', sans-serif;
+	font-size:30px;
+ font-style:bold;
+}
+.header{
+ width:100%;
+ padding:20px 0;
+ text-align:center;
+ color: black;
+}
+a {
+ text-decoration:none;
+ color:inherit;
+}
+nav ul {
+	font-family: 'Lora', serif;
+ font-size:20px;
+ overflow:hidden;
+ padding:0;
+ margin:0;
+ color:#FF6600;
+ text-align:right;
+-webkit-transition: max-height 1.5s;
+-ms-transition: max-height 1.5s;
+-moz-transition: max-height 1.5s;
+-0-transition: max-height 1.5s;
+transition: max-height 1.s;
+ }
+nav ul li{
+ display: inline-block;
+padding: 5px;
+}
+nav ul li:hover{
+background-color:white;
+}
+.collapse{
+ width:100%;
+ background:#FFA366;	
+ text-align:center;	
+ box-sizing:border-box;
+ padding: 15px 10px;
+ cursor: pointer;
+ color:white;
+ display:none;
+font-family: 'Oswald', sans-serif;
+}
+@media screen and (max-width: 490px){
+ nav ul{
+	 max-height: 0;
+ }
+ .showing {
+	 max-height:20em;
+ }
+ nav ul li{
+  box-sizing: border-box;
+  width:100%;
+  padding:10px;
+  text-align:center;
+ }
+.collapse{
+	color:black;
+	display:block;
+}
+ }
+ 
+@media screen and (max-width: 1150px){
+  body {
+	 background-image:url("images/bgimgedesktop.jpg");
+ }
+}

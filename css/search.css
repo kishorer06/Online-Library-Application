@@ -1,0 +1,66 @@
+body{
+background-image: url("images/bgimg.jpg"); 
+background-image:no-repeat;
+color:white;
+}
+div{
+margin-top:10em;
+font-size:20px;
+}
+.search{
+color:#000A1F;
+font-family:verdana;	
+padding:5px 10px;
+font-size:15px;
+font-family:verdana;
+background:#ccc; 
+border:1px standard;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 		 
+display: inline-block; 
+border-style: solid; 
+border-width: 2px;
+border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;			
+}
+.search:hover{
+background-color:#EBEFEB;
+}
+nav .navi{
+color:#000A1F;
+font-family:verdana;
+text-decoration:none;	
+padding:5px 10px;
+font-size:15px;
+font-family:verdana;
+background:#ccc; 
+border:1px standard;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 		 
+display: inline-block; 
+border-style: solid; 
+border-width: 2px;
+border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;			
+}
+nav .navi:hover{
+background-color:#EBEFEB;
+}
+p .home{
+display:block;
+width:75px;
+height:40px;
+text-align: center;
+line-height:40px;
+	border-right: 3px solid #B82E00;
+	border-left	: 3px solid #B82E00;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	color: #fff;
+	background:#000;
+	text-decoration: none;
+	list-style-type:none;
+}
+p .home:hover{
+		background: #19c589;
+}
